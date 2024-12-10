@@ -305,7 +305,7 @@ strong {
 }
 
 .navbar-brand img {
-  max-height: 120px; /* Ajuste a altura conforme necessário */
+  max-height: 100px; /* Ajuste a altura conforme necessário */
   width: auto;
 }
 
@@ -389,7 +389,7 @@ strong {
 }
 
 .navbar-brand.d-lg-none img {
-  max-height: 100px; /* Aumenta a altura da imagem conforme desejado */
+  max-height: 50px; /* Aumenta a altura da imagem conforme desejado */
   width: auto;
 }
 
