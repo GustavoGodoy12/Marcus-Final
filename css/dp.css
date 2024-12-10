@@ -301,11 +301,11 @@ strong {
 -----------------------------------------*/
 .navbar {
   padding-top: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .navbar-brand img {
-  max-height: 100px; /* Ajuste a altura conforme necessário */
+  max-height: 80px; /* Ajuste a altura conforme necessário */
   width: auto;
 }
 
