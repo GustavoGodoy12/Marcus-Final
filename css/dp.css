@@ -300,9 +300,15 @@ strong {
   NAVIGATION              
 -----------------------------------------*/
 .navbar {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
+
+.navbar-brand img {
+  max-height: 120px; /* Ajuste a altura conforme necessário */
+  width: auto;
+}
+
 
 .navbar-brand {
   color: var(--primary-color);
@@ -329,7 +335,7 @@ strong {
   color: var(--p-color);
   font-weight: var(--font-weight-semibold);
   font-size: var(--menu-font-size);
-  padding-top: 15px;
+  padding-top: 35px;
   padding-bottom: 15px;
 }
 
@@ -373,6 +379,31 @@ strong {
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: rotate(45deg);
 }
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding-top: 5px; /* Reduz o padding para compensar o aumento da imagem */
+    padding-bottom: 5px; /* Reduz o padding para compensar o aumento da imagem */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+
+.navbar-brand.d-lg-none img {
+  max-height: 100px; /* Aumenta a altura da imagem conforme desejado */
+  width: auto;
+}
+
+.navbar-brand.d-lg-none {
+  margin: -20px;
+}
+
+
+  .navbar-brand img {
+    max-height: 80px; /* Ajuste o valor de acordo com o tamanho desejado */
+    width: auto;
+  }
+}
+
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(-45deg);
